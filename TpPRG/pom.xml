@@ -11,11 +11,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jakartaee>10.0.0</jakartaee>
         <maven.compiler.source>
-            17
-        </maven.compiler.source>
+            17  
+        </maven.compiler.source>    
         <maven.compiler.target>
             17
         </maven.compiler.target>
+        
     </properties>
     
     <dependencies>
@@ -24,12 +25,6 @@
             <artifactId>jakarta.jakartaee-api</artifactId>
             <version>${jakartaee}</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.6.0</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
     
